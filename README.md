@@ -1,12 +1,39 @@
+Task management app
 
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/tyhUB7Q1)
+This is a task management application built with react nodejs and mongodb.
 
-Rentee = User that 'buy' thing
-Renter = User that borrow things to others
+Features:
+- user login
+- create tasks
+- delete tasks
+- update tasks
+- manage users
 
-Folder structure:
+Tech stack:
+React
+Node.js
+Express
+MongoDB
 
-1. Domain — defines models & interfaces
-2. Services — business logic (notifiers, state)
-3. data — API, database, repository implementations
-4. Presentation — UI widgets & screens
+Installation:
+first clone the repository
+then install dependencies
+then start the server
+
+Frontend:
+npm install
+npm run dev
+
+Backend:
+npm install
+npm start
+
+API:
+GET /api/tasks
+POST /api/tasks
+PUT /api/tasks/:id
+DELETE /api/tasks/:id
+
+Developer: John
+
+License: MIT
